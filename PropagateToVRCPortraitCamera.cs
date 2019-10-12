@@ -3,7 +3,8 @@
 
 using UnityEngine;
 
-// Allow for easier setup of VRChat portrait capture
+// Allows for easier setup of VRChat portrait capture
+// Add it under Camera that you want to use as VRC Portrait Camera
 // Propagates Camera Component position rotation and other properties to camera used for VRChat portrait capture
 [ExecuteInEditMode]
 [RequireComponent(typeof(Camera))]

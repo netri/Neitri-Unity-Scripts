@@ -12,7 +12,7 @@ using VRCSDK2;
 
 [CustomEditor(typeof(VRC_AvatarDescriptor))]
 //[CanEditMultipleObjects]
-public class Neitri_Extension_VRC_AvatarDescriptor : Editor
+public class Neitri_CustomEditor_VRC_AvatarDescriptor : Editor
 {
 
 	public static readonly string[] VismesShapeKeys = {

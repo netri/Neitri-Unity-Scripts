@@ -9,7 +9,7 @@ using UnityEditor;
 
 [CustomEditor(typeof(DynamicBone))]
 [CanEditMultipleObjects]
-public class Neitri_Extension_DynamicBone : Editor
+public class Neitri_CustomEditor_DynamicBone : Editor
 {
 	static void AddPresets()
 	{
