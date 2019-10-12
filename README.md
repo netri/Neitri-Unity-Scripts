@@ -14,5 +14,5 @@ Collection of scripts for Unity3D and VRChat.
 
 ## VRC_AvatarDescriptor
 - Custom editor for VRC_AvatarDescriptor
-- Adds various warnings and hot fix button to VRC_AvatarDescriptor
+- Adds various warnings and fix buttons to VRC_AvatarDescriptor
 ![](.Images/CustomEditor_VRC_AvatarDescriptor.png)

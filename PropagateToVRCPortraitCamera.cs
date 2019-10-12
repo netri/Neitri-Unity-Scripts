@@ -32,7 +32,9 @@ public class PropagateToVRCPortraitCamera : MonoBehaviour
 		var targetCam = vrcCamGO.GetComponent<Camera>();
 		if (!sourceCam || !targetCam) return;
 		
+		var targetTexture = targetCam.targetTexture;
 		targetCam.CopyFrom(sourceCam);
+		targetCam.targetTexture = targetTexture;
 	}
 
 	void PropagateToSceneDescriptors()
